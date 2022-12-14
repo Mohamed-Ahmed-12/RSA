@@ -11,10 +11,10 @@ Implement RSA Algorithm encryption and decryption using C++
 1. Cipher text in ASCII (decimal) for each character (X) 
 2. Selected p,q for each character (X) 
 3. Generated keys e,d for each character (X)
-
+---------------------------------------------------------------
 
 ### Hint1:
--To do any exponentiation (x^H mod n) use Square and multiply algorithm
+- To do any exponentiation (x^H mod n) use Square and multiply algorithm
 
 ### Hint2: 
 - For step 1 in key generation p & q must satisfy the following:- 
@@ -30,6 +30,6 @@ Implement RSA Algorithm encryption and decryption using C++
 - Compute Exponentiation (xe mod n) using Square and Multiply method
 
 ### Hint5 in Decryption:- 
-1- Compute exponentiation using square and multiply method. 
-2- Compute cp and cq using EEA OR Binary EEA.
+1. Compute exponentiation using square and multiply method. 
+2. Compute cp and cq using EEA OR Binary EEA.
 ### Decryption using Chinese Remainder Theorem (CRT)
