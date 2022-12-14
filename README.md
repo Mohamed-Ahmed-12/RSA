@@ -18,7 +18,7 @@ Implement RSA Algorithm encryption and decryption using C++
 
 ### Hint 2: 
 - For step 1 in key generation p & q must satisfy the following:- 
-1. p, q are random numbers X < p, q <215 − 1 (where X is the ASCII (decimal) of one character in plaintext) 
+1. p, q are random numbers X < p, q <2^15 − 1 (where X is the ASCII (decimal) of one character in plaintext) 
 2. p, q are prime numbers (Test primality of them using Fermat Primality Test mentioned below ) 
 - For step 4 and 5 in key generation use Extended Euclidean Algorithm OR Binary Extended Euclidean Algorithm
 
