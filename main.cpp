@@ -88,16 +88,11 @@ ll SquareAndMultiply(ll base, ll exponent, ll modulas)
 {
     string H = DecimalToBinary(exponent);
     ll x = base;
-
     for (int i = 1; i < H.length(); i++)
     {
-        x = x * x;
-        x = x % modulas;
+        x = x*x % modulas;
         if (H[i] == '1')
-        {
-            x = x * base;
-            x = x % modulas;
-        }
+             x = x*base % modulas;   
     }
     return x;
 }
