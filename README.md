@@ -33,3 +33,6 @@ Implement RSA Algorithm encryption and decryption using C++
 1. Compute exponentiation using square and multiply method. 
 2. Compute cp and cq using EEA OR Binary EEA.
 ### Decryption using Chinese Remainder Theorem (CRT)
+
+### Example
+![14 12 2022_15 16 22_REC](https://user-images.githubusercontent.com/84830168/207608882-961fc512-b3d5-43c9-a68e-ea2a6fc1ff3a.png)
