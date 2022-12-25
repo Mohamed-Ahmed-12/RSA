@@ -19,7 +19,7 @@ Implement RSA Algorithm encryption and decryption using C++
 ### Hint 2: 
 - For step 1 in key generation p & q must satisfy the following:- 
 1. p, q are random numbers X < p, q <2^15 − 1 (where X is the ASCII (decimal) of one character in plaintext) 
-2. p, q are prime numbers (Test primality of them using Fermat Primality Test mentioned below ) 
+2. p, q are prime numbers (Test primality of them using Fermat Primality Test) 
 - For step 4 and 5 in key generation use Extended Euclidean Algorithm 
 
 ### Hint 3: 
@@ -34,5 +34,5 @@ Implement RSA Algorithm encryption and decryption using C++
 2. Compute cp and cq using EEA .
 ### Decryption using Chinese Remainder Theorem (CRT)
 
-### Example
+### Output
 ![14 12 2022_15 16 22_REC](https://user-images.githubusercontent.com/84830168/207608882-961fc512-b3d5-43c9-a68e-ea2a6fc1ff3a.png)
